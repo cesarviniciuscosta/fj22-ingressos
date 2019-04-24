@@ -19,7 +19,7 @@ public class SessaoForm {
 	@NotNull
 	private Integer salaId;
 	
-	@DateTimeFormat(pattern="HH.mm")
+	@DateTimeFormat(pattern="HH:mm")
 	@NotNull
 	private LocalTime horario;
 	
