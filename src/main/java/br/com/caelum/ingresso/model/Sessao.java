@@ -37,7 +37,7 @@ public class Sessao {
 	}
 
 	public LocalTime getHorarioTermino() {
-		return this.getHorarioTermino().plusMinutes(filme.getDuracao().toMinutes());
+		return this.getHorario().plusMinutes(filme.getDuracao().toMinutes());
 		
 	}
 
